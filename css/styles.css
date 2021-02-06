@@ -4048,9 +4048,19 @@ input[type=button].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
-}
-.navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
+}
+
+.navbar-brand #logog {
+  display: none;
+  position: relative;
+  top: 0;
+  left: -5rem;
+  z-index: 99;
+}
+
+.navbar-brand:hover #logog, .navbar-brand:focus #logog {
+  display: inline;
 }
 
 .navbar-nav {
@@ -4393,7 +4403,7 @@ input[type=button].btn-block {
   min-width: 0;
   word-wrap: break-word;
   background-color: #EDFDF3;
-  
+
 }
 .card > hr {
   margin-right: 0;
@@ -10115,7 +10125,7 @@ body {
 #mainNav {
   min-height: 3.5rem;
   background-color: rgb(161, 214, 217);
-    color:#fff;
+  color:#fff;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10165,6 +10175,7 @@ body {
   }
     /*chang big window bar color under here */
   #mainNav.navbar-shrink {
+    padding: 0.5rem 0;
     background-color: rgb(161, 214, 217);
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -10173,18 +10184,18 @@ body {
   #mainNav.navbar-shrink .nav-link {
     color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
-    border-bottom: 0.25rem solid transparent;
+    border-bottom: none;
   }
   #mainNav.navbar-shrink .nav-link:hover {
     color: #00A765;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #00A765;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: #00A765;
     outline: none;
-    border-bottom: 0.25rem solid #00A765;
+    border-bottom: none;
   }
 }
 
@@ -10205,7 +10216,7 @@ body {
   min-height: 35rem;
   padding-top: 15rem;
     padding-bottom: 15rem;
-    background:linear-gradient(to top, rgba(237,253,243, 1) 0%, rgba(255, 255, 255, 0) 50%), url("../img/oxalisr.png");
+    background:linear-gradient(to top, rgba(237,253,243, 1) 0%, rgba(255, 255, 255, 0) 50%), url("../img/oxalisc.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10244,7 +10255,7 @@ body {
     letter-spacing: 0.8rem;*/
   }
   .masthead h2 {
-      
+
   }
 }
 
