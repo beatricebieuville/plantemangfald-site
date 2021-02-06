@@ -15,8 +15,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    
-    
+
+
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </header>
-    
+
     <!-- About-->
         <section class="sitat-section text-center" id="about">
             <div class="container">
@@ -57,22 +57,31 @@
                     </div>
                 </div>
             </div>
-        </section>    
-    
-        
-           
-    
-    
-    
-    
+<<<<<<< HEAD
+        </section>
+
+
+
+
+
+
+
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             <div class="container">
+
+
+
+
+
+=======
+        </section>    
+    
+     <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container">
                 
-        
-                
-                
-                
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
                 <!-- Edimentals -->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                     <div class="col-xl-4 col-lg-4"><img class="img-fluid mb-3 mb-lg-0" src="./img/mint.jpg" alt="edimentals spiselige planter" style='max-height:50rem;'/></div>
@@ -84,25 +93,34 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Stovehage -->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-5 mt-5 pt-5 pb-5">
                     <div class="col-lg-12">
                         <div class=" text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left  bg-dark">
+<<<<<<< HEAD
+                                    <img class="img-fluid pb-4" src="./img/stovehage.png" alt="inneplanter stoveplanter stovehage" style="width:60%;"/>
+                                    <p class="text-white">Drøymer du å produsera din eigen mat heile året rundt? No kan du gjera det rett frå stova di! Med våre inneplanter kan du dyrka spennande smakar samtidig som plantene pynter huset. Ta vare på miljøet ved å eta dei meste lokale plantene som finnes: dei som kjem rett frå huset ditt.
+                                    </p >
+=======
                                     <img class="img-fluid pb-4" src="./img/stovehage.png" alt="" style="width:60%;"/>
                                     <p class="text-white">Drøymer du om å produsera mat året rundt? No kan du gjera det rett frå stova di! Med våre inneplanter kan du dyrka spennande smakar samtidig som plantene pynter huset. Ta vare på miljøet ved å eta dei meste lokale plantene som finst: dei som kjem rett frå ditt eige hus!</p>
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
                                     <a class="btn btn-primary js-scroll-trigger mt-2" href="./katalog.html">Til katalogen vår</a>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
+
+
+
+=======
                 
-                
-                
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
                 <!-- Norske stauder -->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                     <div class="col-lg-6 my-auto"><img class="img-fluid" src="img/silena2.jpg" alt="silena naturplante villflora villplante norsk flora stedegner" /></div>
@@ -110,49 +128,74 @@
                         <div class=" text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left  bg-color">
-                                    <img class="img-fluid pb-4" src="./img/norskf.png" alt="norske stauder villplanter naturplanter stedegne" />
+<<<<<<< HEAD
+                                    <img class="img-fluid pb-4" src="./img/norskf.png" alt="norske stauder villplanter naturplanter stedegner" />
+                                    <p class="mb-0 text-black">Stauder er flerårige plantar -det betyr at dei kjem til å gro tilbake i fleire år etter at du har planta dei i hagen din. Å dyrka planter frå den vakre norske floraen, gjer det mogleg å tilby hardføre plantar som tåler den norske vinteren. Me leverer stedegner til Vestlandet, Innlandet og Oslofjord, etter bestilling.</p >
+
+=======
+                                    <img class="img-fluid pb-4" src="./img/norskf.png" alt="" />
                                     <p class="mb-0 text-black">Stauder er fleirårige planter, det betyr at dei kjem til å gro tilbake i fleire år etter at du har planta dei i hagen din. Å dyrka planter frå den vakre norske floraen, gjer det mogleg å tilby hardføre planter som tåler den norske vinteren. Me leverer stadeigne planter frå Vestlandet, Innlandet og Oslofjord-området, etter bestilling.</p>
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                
-               
-                
+<<<<<<< HEAD
+
+
+
+
+                </div>
+        </section>
+
+
+=======
+                                
                 </div>
         </section>
         
-        
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
         <section class="sitat-section text-center pt-0" id="about">
-            <div class="container mb-5"> 
-                <div class="row"> 
+            <div class="container mb-5">
+                <div class="row">
                     <div class="col-lg-8 mx-auto">
+<<<<<<< HEAD
                         <img class="img-fluid pb-4" src="./img/baerekraft.png" alt="bærekraft biokol torvfri" style="width:70%;"/>
+                        <p class="text-dark pb-5">Med hensyn til miljøet sikter me på torvfri dyrking. Me eksperimenterer med <a href="http.::www.godjord.no" target="#">biokul</a>  og kakaoskal, biprodukt av sjokoladeproduksjon i Eidfjord.
+=======
+                        <img class="img-fluid pb-4" src="./img/baerekraft.png" alt="" style="width:70%;"/>
                         <p class="text-dark pb-5">Plantemangfald har som mål å dyrke torvfritt. Me eksperimenterer med heimelaga biokol og effektive mikrobar. Allereie no så meir enn opphevar biokolet i jorda vår den negative klimaeffekten av torva som me framleis brukar.
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
                         </p >
                     </div>
                 </div>
             </div>
         </section>
-        
-        
+<<<<<<< HEAD
 
+
+
+
+=======
                 
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
            <!-- About-->
         <section class="stovemat-section">
             <div class="container" style="height:18rem;">
             </div>
-        </section>     
+        </section>
 
 
-        
-     
-        
-               
-    
-    
+
+
+
+
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
     <!-- About-->
         <section class="about-section text-center pt-5 bg-dark" id="omOss">
             <div class="container" >
@@ -163,26 +206,43 @@
                 </div>
                 <div class="row pt-5">
                     <div class="col-lg-6 mx-auto text-lg-left mt-0 p-5">
-                        <img class="img-fluid " alt="Guttorm Flatabø" src=./img/guttorm.png>
-                        <p class="text-white-50 pt-3">Guttorm Flatabø vart nesten født i hagen, av far Geir Flatabø, som er botaniker og plantesamlar, og gartnar Gunnbjørg Øyre, som var rektor på Hjeltnes gartnarskule. Guttorm la frå seg forsking for å leva av sin kjærleik til naturen, via produksjon av planter og sunne bikuber. 
+<<<<<<< HEAD
+                        <img class="img-fluid" alt="Guttorm Flatabø" src=./img/guttorm.png>
+                        <p class="text-white-50 pt-3">
+                            Guttorm Flatabø vart nesten født i hagen, frå faren Geir Flatabø, som er botaniker og plantesamlar, og Gunnbjørg Øyre, som var rektor på Hjeltnes gartnarskulen. Guttorm ladde frå seg forskning for å leva av sin kjærleik til naturen, via produksjon av plantar og sunne bikuber.
                         </p>
                     </div>
                     <div class="col-lg-6 mx-auto text-lg-left mt-0 p-5">
                         <img class="img-fluid" alt="Béatrice Bieuville" src=./img/beatrice.jpg>
+                        <p class="text-white-50 pt-3">
+                            Béatrice Bieuville vart oppvokst på ein gard i Frankrike. Der starta ho å sanka nye og spennande smakar ut ifrå naturen. Ho flytta til Norge for å jobba som gartnar for Ljono stauder (Ulvik), som har lang erfaring med å dyrka plantar frå vill materiell. No jobbar Béatrice med å realisera sin visjon for ein sensuele hageframtid.
+=======
+                        <img class="img-fluid " src=./img/guttorm.png>
+                        <p class="text-white-50 pt-3">Guttorm Flatabø vart nesten født i hagen, av far Geir Flatabø, som er botaniker og plantesamlar, og gartnar Gunnbjørg Øyre, som var rektor på Hjeltnes gartnarskule. Guttorm la frå seg forsking for å leva av sin kjærleik til naturen, via produksjon av planter og sunne bikuber. 
+                        </p>
+                    </div>
+                    <div class="col-lg-6 mx-auto text-lg-left mt-0 p-5">
+                        <img class="img-fluid" src=./img/beatrice.jpg>
                         <p class="text-white-50 pt-3">Béatrice Bieuville veks opp på ein gard i Normandie i Frankrike. Der starta ho å sanka nye og spennande smakar frå naturen. Ho flytta til Norge for å jobba som gartnar for Ljono stauder (Ulvik), som har lang erfaring med å dyrka ville norske planter. No jobbar Béatrice med å realisera sin visjon for ein sensorisk hageframtid.
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
                         </p>
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
         </section>
+
+
+
+
+
+
+
+
+=======
+        </section> 
     
-   
-    
-    
-    
-    
-    
-    
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
         <!-- Signup-->
         <section class="signup-section" id="signup">
             <div class="container">
@@ -242,8 +302,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+<<<<<<< HEAD
 
-  
-    
+
+
+=======
+>>>>>>> ca1bbd44b1a715f56f39b75391f697e3c59dff4a
     </body>
 </html>
