@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*!
+* ADAPTED BY PLANTEMANGFALD AS FROM THE THEME:
 * Start Bootstrap - Grayscale v6.0.3 (https://startbootstrap.com/theme/grayscale)
 * Copyright 2013-2020 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
@@ -11,28 +12,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: rgb(139, 191, 159);
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #28a745;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --black: #000000;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -85,8 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 0;
 }
 
 abbr[title],
@@ -547,24 +525,31 @@ pre code {
 .container-sm {
   width: 100%;
   padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-left: 0rem;
   margin-right: auto;
   margin-left: auto;
+}
+
+#katalog-tittel{
+  margin-left:2.9rem;
 }
 
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+    margin: auto;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
+    margin: auto;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+    margin: auto;
   }
 }
 @media (min-width: 1200px) {
@@ -1652,7 +1637,9 @@ pre code {
   }
 }
 .table {
-  width: 100%;
+  width:100%;
+  max-width: 35rem;
+  margin-left: 3rem;
   margin-bottom: 1rem;
   color: #212529;
 }
@@ -1929,6 +1916,12 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
+  .table{
+    margin:auto;
+  }
+  #katalog-tittel{
+    margin:auto;
+  }
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1940,6 +1933,12 @@ pre code {
   }
 }
 @media (max-width: 767.98px) {
+  .table{
+    margin:auto;
+  }
+  #katalog-tittel{
+    margin:auto;
+  }
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -2414,6 +2413,7 @@ textarea.form-control {
 }
 
 .btn {
+  margin-top: 2rem;
   display: inline-block;
   font-weight: 400;
   color: #212529;
@@ -4051,7 +4051,7 @@ input[type=button].btn-block {
   text-decoration: none;
 }
 
-.navbar-brand #logog {
+.navbar-brand #logo-green {
   display: none;
   position: relative;
   top: 0;
@@ -4059,7 +4059,7 @@ input[type=button].btn-block {
   z-index: 99;
 }
 
-.navbar-brand:hover #logog, .navbar-brand:focus #logog {
+.navbar-brand:hover #logo-green, .navbar-brand:focus #logo-green {
   display: inline;
 }
 
@@ -4339,7 +4339,7 @@ input[type=button].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: #00A765;
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
@@ -10259,55 +10259,50 @@ body {
   }
 }
 
-.about-section {
-  padding-top: 10rem;
-  background: rgb(0, 45, 0);
-}
-.about-section p {
-  margin-bottom: 5rem;
-}
-
-.stovemat-section {
-  padding-top: 20rem;
-  background:linear-gradient(to bottom, rgba(237,253,243, 1) 0%, rgba(255, 255, 255, 0) 80%), url('../img/stueloen.jpg');
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: top;
-}
-.stovemat-section p {
-  margin-bottom: 5rem;
-}
-
 .sitat-section {
-  padding-top: 10rem;
-    padding-bottom: 1rem;
-  background-color:rgb(237,253,243);
+    padding-top: 7rem;
+    background-color:rgb(237,253,243);
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
 }
 
-.projects-section {
-  padding: 10rem 0;
+.sitat-section p {
+  margin-bottom: 2rem;
 }
-.projects-section .featured-text {
-  padding: 2rem;
+
+.stoveloen-section {
+    padding-top: 20rem;
+    background:linear-gradient(to bottom, rgba(237,253,243, 1) 0%, rgba(255, 255, 255, 0) 20%), url('../img/stueloen.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: top;
+}
+.stoveloen-section p {
+  margin-bottom: 5rem;
+}
+
+.plantemangfald-section {
+  padding-top: 5rem;
+}
+.plantemangfald-section .featured-text {
+  padding: 0rem 2rem;
 }
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .plantemangfald-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid transparent;
   }
 }
-.projects-section .project-text {
+.plantemangfald-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .plantemangfald-section .project-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
+  .plantemangfald-section .project-text hr {
     border-color: transparent;
     border-width: 0.25rem;
     width: 30%;
@@ -10316,7 +10311,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-    background: url("../img/froe.jpg");
+    background: url("../img/leucanthemum.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10334,7 +10329,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 .contact-section .card {
     border-radius: 0.20rem;
