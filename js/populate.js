@@ -8,7 +8,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1RrZrUKaDjsTmtJsS6f2bfUT-J
                 var latinsk = data.feed.entry[i]['gsx$latin']['$t'];
                 var norsk = data.feed.entry[i]['gsx$norsk']['$t'];
 
-                document.getElementById('planteliste').innerHTML += ('<tr>'+'<td class="text-capitalize">'+latinsk+'</td>'+'<td class="text-capitalize">'+norsk+'</td>'+'</tr>');
+                document.getElementById('planteliste').innerHTML += ('<tr>'+'<td><i>'+latinsk+'</i></td>'+'<td class="text-capitalize">'+norsk+'</td>'+'</tr>');
             }
 
         }
