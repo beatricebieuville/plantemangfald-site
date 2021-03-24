@@ -8,8 +8,13 @@
         <meta name="author" content="Plantemangfald AS" />
         <title>Plantemangfald</title>
         <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i" rel="stylesheet" />
+        <!-- Google font: preload Nunito-->
+        <link rel="preload" as="font" type="font/woff" href="./fonts/nunito-v16-latin-ext-regular.woff" rel="stylesheet" />
+        <link rel="preload" as="font" type="font/woff2" href="./fonts/nunito-v16-latin-ext-regular.woff2" rel="stylesheet" />
+        <link rel="preload" as="font" type="font/eot" href="./fonts/nunito-v16-latin-ext-regular.eot" rel="stylesheet" />
+        <link rel="preload" as="font" type="font/eot" href="./fonts/nunito-v16-latin-ext-regular.eot#iefix" rel="stylesheet" />
+        <link rel="preload" as="font" type="font/svg" href="./fonts/nunito-v16-latin-ext-regular.svg#Nunito" rel="stylesheet" />
+        <link rel="preload" as="font" type="font/ttf" href="./fonts/nunito-v16-latin-ext-regular.ttf" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
   </head>
@@ -48,8 +53,8 @@
             <!-- Table head -->
             <thead >
               <tr >
-                <th onclick="sortTable(0)">Latinsk namn <img src="img/sort.webp" alt="sort" style="width:0.7rem;margin-left:0.5rem";/></th>
-                <th onclick="sortTable(1)">Norsk namn <img src="img/sort.webp" alt="sort" style="width:0.7rem;margin-left:0.5rem";/></th>
+                <th onclick="sortTable(0)">Latinsk namn <img src="img/sort.png" alt="sort" style="width:0.7rem;margin-left:0.5rem";/></th>
+                <th onclick="sortTable(1)">Norsk namn <img src="img/sort.png" alt="sort" style="width:0.7rem;margin-left:0.5rem";/></th>
               </tr>
             </thead>
 
