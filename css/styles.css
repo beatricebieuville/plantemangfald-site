@@ -524,8 +524,8 @@ pre code {
 .container-md,
 .container-sm {
   width: 100%;
+  padding-left: 0.75rem;
   padding-right: 0.75rem;
-  padding-left: 0rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1916,9 +1916,6 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
-  body{
-    padding-left:1rem;
-  }
   .table{
     margin:auto;
   }
@@ -1936,9 +1933,6 @@ pre code {
   }
 }
 @media (max-width: 767.98px) {
-  body{
-    padding-left:1rem;
-  }
   .table{
     margin:auto;
   }
@@ -2134,8 +2128,8 @@ textarea.form-control {
 .form-row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -5px;
-  margin-left: -5px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .form-row > .col,
 .form-row > [class*=col-] {
@@ -3550,7 +3544,7 @@ input[type=button].btn-block {
 
 .custom-control-inline {
   display: inline-flex;
-  margin-right: 1rem;
+
 }
 
 .custom-control-input {
