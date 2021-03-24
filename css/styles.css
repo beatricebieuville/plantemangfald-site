@@ -1916,6 +1916,9 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
+  *{
+    padding-left:1rem;
+  }
   .table{
     margin:auto;
   }
@@ -1933,6 +1936,9 @@ pre code {
   }
 }
 @media (max-width: 767.98px) {
+  *{
+    padding-left:1rem;
+  }
   .table{
     margin:auto;
   }
