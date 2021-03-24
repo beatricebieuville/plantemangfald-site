@@ -16,7 +16,8 @@
         <link rel="preload" as="font" type="font/svg" href="./fonts/nunito-v16-latin-ext-regular.svg#Nunito" rel="stylesheet" />
         <link rel="preload" as="font" type="font/ttf" href="./fonts/nunito-v16-latin-ext-regular.ttf" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/styles.css"/>
+        <script type="text/javascript" src="./js/sort.js" async></script>
   </head>
 
     <body>
@@ -42,8 +43,8 @@
 
           <!--Title and text-->
           <div id="katalog-tittel">
-            <object type="image/webp" class="img-fluid mb3" data="./img/katalog.webp" style="height:10rem; margin-left:0.5rem; padding-top:5rem;">
-              <img src="./img/katalog.png" alt="katalog naturplanter norske stauder edimentals inneplanter" class="img-fluid mb-3" style="height:10rem; margin-left:0.5rem; padding-top:5rem;"/>
+            <object type="image/webp" class="img-fluid mb3" data="./img/katalog.webp" style="max-height:10rem; margin-left:0.5rem; padding-top:5rem;">
+              <img src="./img/katalog.jpg" alt="katalog naturplanter norske stauder edimentals inneplanter" class="img-fluid mb-3" style="max-height:10rem; margin-left:0.5rem; padding-top:5rem;"/>
             </object>
             <p class="text-dark mb-1" style="padding-left:0.75rem;">Levering i pluggbrett eller i potter (9 eller 10 cm).</p>
             <p class="text-dark mb-5" style="padding-left:0.75rem;">Har du spørsmål? Ynskjer du spesifikke planter? Ta <a href="#signup">kontakt</a> :-)</p>
@@ -55,8 +56,8 @@
             <!-- Table head -->
             <thead >
               <tr >
-                <th onclick="sortTable(0)">Latinsk namn <img src="img/sort.png" alt="sort" style="width:0.7rem;margin-left:0.5rem";/></th>
-                <th onclick="sortTable(1)">Norsk namn <img src="img/sort.png" alt="sort" style="width:0.7rem;margin-left:0.5rem";/></th>
+                <th onclick="sortTable(0)">Latinsk namn <img src="img/sort.jpg" alt="sort" style="width:0.7rem;margin-left:0.5rem";/></th>
+                <th onclick="sortTable(1)">Norsk namn <img src="img/sort.jpg" alt="sort" style="width:0.7rem;margin-left:0.5rem";/></th>
               </tr>
             </thead>
 
@@ -112,8 +113,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <script type="text/javascript" src="./js/populate.js"></script>
-        <script type="text/javascript" src="./js/sort.js"></script>
+        <script type="text/javascript" src="./js/populate.js" async></script>
 
     </body>
 
