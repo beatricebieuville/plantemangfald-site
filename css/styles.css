@@ -1916,7 +1916,7 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
-  *{
+  body{
     padding-left:1rem;
   }
   .table{
@@ -1936,7 +1936,7 @@ pre code {
   }
 }
 @media (max-width: 767.98px) {
-  *{
+  body{
     padding-left:1rem;
   }
   .table{
